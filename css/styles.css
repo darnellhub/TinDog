@@ -15,12 +15,12 @@ body {
 
 }
 
-@media (width: 828px){
+
 #title{
 background-color: #ff4c68;
 color: #FFF
 }
-}
+
 
 @media (max-width: 828px){
     .hero-image {
