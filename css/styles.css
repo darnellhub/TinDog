@@ -15,9 +15,24 @@ body {
 
 }
 
+@media (width: 828px){
 #title{
 background-color: #ff4c68;
 color: #FFF
+}
+}
+
+@media (max-width: 828px){
+    .hero-image {
+                transform: rotate(0);
+                position: static;
+            }
+    #title{
+    background-color: #ff4c68;
+    color: #FFF;
+    text-align: center;
+    }
+
 }
 
 /* Hero Image */
@@ -153,18 +168,7 @@ text-align: center;
     color: grey;
 }
 
-@media (max-width: 828px){
-    .hero-image {
-                transform: rotate(0);
-                position: static;
-            }
-    #title{
-    background-color: #ff4c68;
-    color: #FFF;
-    text-align: center;
-    }
 
-}
 
 
 #footer{
