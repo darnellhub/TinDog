@@ -15,14 +15,10 @@ body {
 
 }
 
-
 #title{
 background-color: #ff4c68;
 color: #FFF
 }
-
-
-
 
 /* Hero Image */
 .hero-image {
@@ -157,7 +153,18 @@ text-align: center;
     color: grey;
 }
 
+@media (max-width: 992px){
+    .hero-image {
+                transform: rotate(0);
+                position: static;
+            }
+    #title{
+    background-color: #ff4c68;
+    color: #FFF;
+    text-align: center;
+    }
 
+}
 
 
 #footer{
@@ -187,19 +194,5 @@ text-align: center;
 .footer-text{
     font-family: "Montserrat";
     font-size: 0.75rem;
-
-}
-
-@media (max-width: 828px)
-{
-    .hero-image {
-                transform: rotate(0);
-                position: static;
-            }
-    #title{
-    background-color: #ff4c68;
-    color: #FFF;
-    text-align: center;
-    }
 
 }
